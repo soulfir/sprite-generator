@@ -58,7 +58,7 @@ pip install -r requirements.txt
 
 ### Clone Repository
 ```bash
-git clone https://github.com/your-repo-link.git
+git clone https://github.com/soulfir/sprite-generator.git
 cd procedural-sprite-generator
 
 ## Usage
