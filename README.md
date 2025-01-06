@@ -52,14 +52,37 @@ The project leverages **cellular automata** to procedurally generate sprite shee
   - `Pillow`
   - `numpy`
 
-Install dependencies using:
+### Installing `tkinter`
+`tkinter` is a built-in library in Python for most distributions, but it may require additional installation depending on your system:
+
+- **On Debian/Ubuntu-based systems:**
+  ```bash
+  sudo apt-get install python3-tk
+  ```
+
+- **On Fedora-based systems:**
+  ```bash
+  sudo dnf install python3-tkinter
+  ```
+
+- **On macOS:**
+  `tkinter` is included with Python installations from python.org.
+
+- **On Windows:**
+  `tkinter` is included by default in Python installations.
+
+For other libraries (`Pillow`, `numpy`), install them using the `requirements.txt` file:
 ```bash
 pip install -r requirements.txt
+```
 
 ### Clone Repository
 ```bash
 git clone https://github.com/soulfir/sprite-generator.git
 cd procedural-sprite-generator
+```
+
+---
 
 ## Usage
 
@@ -158,4 +181,3 @@ If you use this work, please cite:
 ## License
 
 This project is licensed under the MIT License. See `LICENSE` for more details.
-
